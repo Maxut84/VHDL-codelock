@@ -173,7 +173,7 @@ begin
                 line1_buffer <= text16("ERROR           ");
 
             when saved_code =>
-                line1_buffer <= text16("DOOR CLOSED     ");
+                line1_buffer <= text16("CODE SAVED      ");
 
             when set_code =>
                 line1_buffer <= text16("DOOR CLOSED     ");
