@@ -45,6 +45,7 @@ begin
 
     process(digit_select, code)
     begin
+		-- loopar genom sel värden
         case digit_select is
             when "00" =>
                 hexadecimal <= code(15 downto 12);
